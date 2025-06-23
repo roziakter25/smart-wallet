@@ -49,7 +49,7 @@
                                         <span class="input-group-text">$</span>
                                         <input type="number" step="0.01" min="0.01" 
                                                class="form-control @error('amount') is-invalid @enderror" 
-                                               id="amount" name="amount" value="{{ old('amount') }}" required>
+                                               id="amount" name="amount" placeholeder="Enter amount" value="{{ old('amount') }}" required>
                                     </div>
                                     @error('amount')
                                         <span class="invalid-feedback" role="alert">
